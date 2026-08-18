@@ -29,3 +29,5 @@ This project demonstrates how to deploy and host a static website using Amazon W
 aws-s3-static-website/
 ├── index.html
 └── README.md
+## Live Website
+[View Live Website] (http://janiya-aws-web-storage-2026.s3-website.eu-north-1.amazonaws.com)
