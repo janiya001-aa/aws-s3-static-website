@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cloud Computing Hub</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f7fb;
+      color: #172033;
+    }
+    header {
+      background: #172033;
+      color: white;
+      padding: 22px 8%;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
+    nav h2 { margin: 0; }
+    nav span { color: #b9c7dc; }
+    .hero {
+      background: linear-gradient(135deg, #1f5eff, #4f8cff);
+      color: white;
+      padding: 70px 8%;
+    }
+    .hero h1 {
+      font-size: 42px;
+      margin: 0 0 15px;
+    }
+    .hero p {
+      max-width: 650px;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 20px;
+      background: white;
+      color: #1f5eff;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .section {
+      padding: 45px 8%;
+    }
+    .section h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 24px;
+      border-radius: 12px;
+      border: 1px solid #e1e7f0;
+    }
+    .card h3 { margin-top: 0; color: #1f5eff; }
+    .card p { line-height: 1.5; color: #5c687a; }
+    .project {
+      background: white;
+      border-left: 5px solid #1f5eff;
+      padding: 22px;
+      border-radius: 10px;
+      margin: 15px 0;
+    }
+    footer {
+      text-align: center;
+      background: #172033;
+      color: #b9c7dc;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <h2>☁ Cloud Computing Hub</h2>
+    <span>AWS • Cloud • DevOps</span>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Welcome to the Cloud</h1>
+  <p>
+    Explore cloud computing concepts, AWS services, storage, networking,
+    security and practical cloud projects.
+  </p>
+  <a class="button" href="#services">Explore Services</a>
+</section>
+
+<section class="section" id="services">
+  <h2>Core Cloud Services</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>EC2</h3>
+      <p>Virtual servers in the AWS cloud for running applications and websites.</p>
+    </div>
+    <div class="card">
+      <h3>S3</h3>
+      <p>Scalable object storage for websites, images, backups and application data.</p>
+    </div>
+    <div class="card">
+      <h3>VPC</h3>
+      <p>A virtual network where cloud resources can communicate securely.</p>
+    </div>
+    <div class="card">
+      <h3>IAM</h3>
+      <p>Manage users, permissions and secure access to AWS resources.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Cloud Projects</h2>
+
+  <div class="project">
+    <h3>Project 01 — AWS EC2 Web Server</h3>
+    <p>Deploy a web server on an Amazon EC2 instance and access it through a public IP address.</p>
+  </div>
+
+  <div class="project">
+    <h3>Project 02 — S3 Static Website</h3>
+    <p>Host a static website using an Amazon S3 bucket and configure website access.</p>
+  </div>
+
+  <div class="project">
+    <h3>Project 03 — Cloud Storage</h3>
+    <p>Upload, store and manage files in Amazon S3 using secure cloud storage practices.</p>
+  </div>
+</section>
+
+<section class="section">
+  <h2>My Cloud Skills</h2>
+  <div class="cards">
+    <div class="card"><h3>☁ Cloud Computing</h3><p>Understanding cloud infrastructure and services.</p></div>
+    <div class="card"><h3>🌐 Networking</h3><p>VPC, IP addressing, routing and security concepts.</p></div>
+    <div class="card"><h3>🔐 Cloud Security</h3><p>IAM, permissions and secure access.</p></div>
+    <div class="card"><h3>⚙ DevOps</h3><p>Learning automation, deployment and cloud operations.</p></div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Cloud Computing Hub | Built and hosted with AWS</p>
+</footer>
+
+</body>
+</html>
